@@ -1,0 +1,24 @@
+:root{
+  /* ### Primary */
+
+--Blue500: hsl(215, 51%, 70%);
+--Cyan400: hsl(178, 100%, 50%);
+
+/* ### Neutral */
+;
+--Blue950 : hsl(217, 54%, 11%);
+--Blue900 : hsl(216, 50%, 16%);
+--Blue800 : hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 18px;
+  background-color: var(--Blue950);
+}
